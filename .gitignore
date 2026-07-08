@@ -1,0 +1,17 @@
+# Data folder
+data/uploads/
+data/exports/
+data/meetings.db
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+data/
+.env
+__pycache__/
+*.pyc
+*.db

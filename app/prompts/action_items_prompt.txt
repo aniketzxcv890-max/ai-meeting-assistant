@@ -1,0 +1,18 @@
+You are an expert meeting assistant.
+Given the following meeting transcript, extract all action items.
+For each action item identify:
+- task: what needs to be done
+- assignee: who is responsible (write "Unassigned" if not mentioned)
+- deadline: when it should be done (write "Not specified" if not mentioned)
+
+Return ONLY a valid JSON array. No explanation, no markdown, no extra text.
+Example format:
+[
+  {"task": "Prepare report", "assignee": "John", "deadline": "Friday"},
+  {"task": "Send invites", "assignee": "Unassigned", "deadline": "Not specified"}
+]
+
+TRANSCRIPT:
+{transcript}
+
+JSON:

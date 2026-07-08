@@ -1,0 +1,16 @@
+You are an expert meeting assistant.
+Given the following meeting transcript, extract all key decisions that were made.
+A decision is something the team agreed upon, concluded, or resolved during the meeting.
+
+Return ONLY a valid JSON array of strings. No explanation, no markdown, no extra text.
+Example format:
+[
+  "Decided to postpone the product launch to Q3.",
+  "Agreed to hire two additional engineers.",
+  "Resolved to switch the payment provider to Stripe."
+]
+
+TRANSCRIPT:
+{transcript}
+
+JSON:

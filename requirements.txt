@@ -1,0 +1,22 @@
+# ── Transcription ────────────────────────────────
+openai-whisper==20231117
+ffmpeg-python==0.2.0
+
+# ── LLM ─────────────────────────────────────────
+google-generativeai>=0.7.0
+
+# ── Web UI ──────────────────────────────────────
+streamlit>=1.35.0
+
+# ── PDF Export ──────────────────────────────────
+fpdf2>=2.7.9
+
+# ── Database & Data ─────────────────────────────
+pandas>=2.0.0
+
+# ── Utilities ───────────────────────────────────
+python-dotenv>=1.0.0
+
+# ── ML / Whisper deps (auto-installed but pinned for stability) ──
+torch>=2.0.0
+numpy>=1.24.0

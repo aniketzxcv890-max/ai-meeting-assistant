@@ -1,0 +1,9 @@
+You are an expert meeting assistant.
+Given the following meeting transcript, write a concise summary in 3-5 sentences.
+Focus on the main topics discussed and the overall purpose of the meeting.
+Do not include action items or decisions here — just the summary.
+
+TRANSCRIPT:
+{transcript}
+
+SUMMARY:
