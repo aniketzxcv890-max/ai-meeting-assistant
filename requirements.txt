@@ -1,4 +1,4 @@
-setuptools>=70.0.0
+setuptools==69.5.1
 
 openai-whisper==20231117
 ffmpeg-python==0.2.0
