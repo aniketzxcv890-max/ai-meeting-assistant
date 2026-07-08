@@ -1,12 +1,22 @@
-setuptools==69.5.1
-
-openai-whisper==20231117
+# ── Transcription ────────────────────────────────
+faster-whisper==1.1.1
+ctranslate2>=4.5.0
 ffmpeg-python==0.2.0
 
+# ── LLM ──────────────────────────────────────────
 google-generativeai>=0.7.0
+
+# ── Web UI ───────────────────────────────────────
 streamlit>=1.35.0
+
+# ── PDF Export ───────────────────────────────────
 fpdf2>=2.7.9
+
+# ── Database & Data ──────────────────────────────
 pandas>=2.0.0
+
+# ── Utilities ────────────────────────────────────
 python-dotenv>=1.0.0
-torch>=2.0.0
+
+# ── Numeric ──────────────────────────────────────
 numpy>=1.24.0
